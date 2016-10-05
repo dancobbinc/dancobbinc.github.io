@@ -1,0 +1,32 @@
+<STYLE>     
+/** {color: #00549b;}*/
+a:link, a:active, a:visited
+              { color: #00549b; }
+a.cg2:link, a.cg2:active, a.cg2:visited
+              { color: #015151; }
+.titlecolor   { color: #015151; }
+.cgb14, .cg14 { font-size: 14pt; }
+.cgb12, .cg12 { font-size: 12pt; }
+.cgb11, .cg11 { font-size: 11pt; }
+.cgb10, .cg10 { font-size: 10pt; }
+.cgb8, .cg8   { font-size: 8pt; }
+.cgb6, .cg6   { font-size: 6pt; }
+.cgb          { font-family: "Verdana"; font-weight: bold; color: #00549b; }
+.cg           { font-family: "Verdana"; color: #00549b; }
+.cg2          { font-family: "Verdana"; color: #015151; }
+.cgb          { font-family: "Verdana"; font-weight: bold; color: #00549b; }
+.cgb2         { font-family: "Verdana"; font-weight: bold; color: #015151; }
+.Pspacer      { height:10px; }
+.divspacer    { height:100px; }
+.datatable td { border: 1px solid #00549b; line-height:normal; }
+.container    { width:1200px; padding-right:30px; }
+div.toggle p  { font-size: 11pt; }
+p             { margin:0; line-height:1.5em;}
+ul li         { padding: 0 0 5px 0; font-size: 11pt; }
+ul li a:link, ul li a:active, ul li a:visited 
+              { color: #00549b; }
+TD a:link, TD a:active, TD a:visited
+              { color: #00549b; }
+DIV           { color: #00549b; }
+TABLE         { color: #00549b; border-color: #00549b; border-collapse: collapse; }
+</STYLE>

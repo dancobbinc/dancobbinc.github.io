@@ -1,0 +1,1266 @@
+<link rel="stylesheet" type="text/css" href="settings.css">
+
+<script>
+if (typeof document.getElementsByClassName !== 'function') {
+	document.getElementsByClassName = function(cl) {
+		var retnode = [];
+		var myclass = new RegExp('\\b'+cl+'\\b');
+		var elem = this.getElementsByTagName('*');
+		for (var i = 0; i < elem.length; i++) {
+			var classes = elem[i].className;
+			if (myclass.test(classes)) retnode.push(elem[i]);
+		}
+		return retnode;
+	};
+}
+
+function toggle(sect)
+{
+    var span = document.getElementsByClassName('toggle');
+
+    for (i = 0; i < span.length; i++)
+    {
+        if (span[i].id == sect)
+		span[i].style.display = "block";
+        else
+		span[i].style.display = "none";
+    }
+}
+</script>
+<a name="TOP"></a>
+<div align=center>
+<table class="container">
+<tr>
+<td>
+<TABLE width=100% border=0>
+<TR>
+<TD width=10%>
+    <!-- logo -->
+    <TABLE border=0>
+	<TR>
+	<TD>
+	<img src="images/DanCobbLogoBlue.png" alt="" style="width:188;height:191px;">
+	</TD>
+	</TR>
+	</TABLE>
+</TD>
+<TD>
+	<TABLE border=0 height=100% width=100%>
+	<TR height=20%>
+	<TD nowrap class="cgb" style="border-bottom: 1px solid #00549b; text-align: right; padding-right: 20px;">
+		&nbsp; Protection for Individuals, Professional Practices &amp; Businesses.
+	</TD>
+	</TR>
+	<TR height=80%>
+	<TD>
+		&nbsp;
+	</TD>
+	</TR>
+	</TABLE>
+</TD>
+</TR>
+
+<TR>
+<TD class="cg" width=20% rowspan=2 valign=top>
+	<TABLE border=0 height=950px width=100%>
+	<TR>
+	<TD WIDTH="50%" valign=top style="border-right: 1px solid #00549b; padding-right: 15px;">
+	    <TABLE align=center border=0 height=950px width=100%>
+	    <TR>
+	    <TD valign=top>
+		<TABLE align=center border=0>
+
+		<TR><TD class="cgb cgb14" align=center>Links</TD></TR>
+
+		<TR><TD class="cg" style="padding-top: 10px;" align=center>&#149;</TD></TR>
+
+		<TR><TD class="cg cg10" align=center><a href="#TOP" onclick="toggle('HOME');">Products and Services</a></TD></TR>
+
+		<TR><TD class="cg" style="padding-top: 10px;" align=center>&#149;</TD></TR>
+
+		<TR><TD class="cg cg10" align=center><a href="#TOP" onclick="toggle('GROUP');">Current Group Disability<br>Plan Overview</a></TD></TR>
+
+		<TR><TD class="cg" style="padding-top: 10px;" align=center>&#149;</TD></TR>
+
+		<TR><TD class="cg cg10" align=center><a href="#TOP" onclick="toggle('PROBLEM');">The Problem and<br>the Solution</a></TD></TR>
+
+		<TR><TD class="cg" style="padding-top: 10px;" align=center>&#149;</TD></TR>
+
+		<TR><TD class="cg cg10" align=center><a href="#TOP" onclick="toggle('COMPARE');">Individual Plans<br>Benefit Comparison</A></TD></TR>
+
+		<TR><TD class="cg" style="padding-top: 10px;" align=center>&#149;</TD></TR>
+
+		<TR><TD class="cg cg10" align=center><a href="#TOP" onclick="toggle('RATES');">Sample Rate Comparison</a></TD></TR>
+
+		<TR><TD class="cg" style="padding-top: 10px;" align=center>&#149;</TD></TR>
+
+		<TR><TD class="cg cg10" align=center><a href="#TOP" onclick="toggle('BROCHURES');">Disability Plan Brochures</a></TD></TR>
+
+		<TR><TD class="cg" style="padding-top: 10px;" align=center>&#149;</TD></TR>
+
+		<TR><TD class="cg cg10" align=center><a href="#TOP" onclick="toggle('HOWMUCH');">How Much Protection<br>Do I Need?</a></TD></TR>
+
+		<TR><TD class="cg" style="padding-top: 10px;" align=center>&#149;</TD></TR>
+
+		<TR><TD class="cg cg10" align=center><a href="#TOP" onclick="toggle('QUOTE');">Request a Quote</a></TD></TR>
+
+		<TR><TD class="cg" style="padding-top: 10px;" align=center>&#149;</TD></TR>
+
+		<TR><TD class="cg cg10" align=center><a href="#TOP" onclick="toggle('UNDERWRITE');">Underwriting Comments</a></TD></TR>
+
+		<TR><TD class="cg" style="padding-top: 10px;" align=center>&#149;</TD></TR>
+
+		<TR><TD class="cg cg10" align=center><a href="http://disabilitycanhappen.org/docs/disability_stats.pdf" target="_blank">Disability Statistics</a></TD></TR>
+
+		</TABLE>
+	    </TD>
+	    </TR>
+	    </TABLE>
+	</TD>
+	<TD>
+	&nbsp;
+	</TD>
+	</TR>
+	</TABLE>
+</TD>
+
+<TD CLASS="cg" width="80%" valign=top>
+	<DIV class="toggle" ID="HOME" NAME="HOME">
+		<DIV style="white-space: nowrap; border: 1px solid black; background-color: #00549b; color: white; text-align: center; font-weight: bold; padding: 5px; font-size:11pt;">
+		INSURING YOUR TOMORROWS  WITH PROTECTION DESIGNED ESPECIALLY FOR YOU
+		</DIV>
+
+		<P class="Pspacer"></P>
+
+		<P align="justify">
+		Dan Cobb & Associates is owned and operated by Dan Cobb.
+Dan has over 28 years of experience as an independent insurance agent and represents only financially sound companies.
+His agency is not obligated to any specific insurance company.
+		</P>
+
+		<P class="Pspacer"></P>
+
+		<P align="justify">
+		Dan works with you and your financial advisors to help you make an informed decision regarding the insurance company and protection best suited for your individual and/or business needs.
+		</P>
+
+		<P class="Pspacer"></P>
+
+		<P align="justify">
+		As an independent agency with numerous resources, Dan Cobb & Associates can offer a broad range of Life, Disability, and Long Term Care insurance protection.
+You will find that Dan is very aggressive in helping clients with <b>serious health conditions</b>, <b>special needs or circumstances</b>, <b>dangerous avocations</b>, <b>older ages</b>, or <b>high net worth</b> find suitable insurance protection.
+		</P>
+
+		<P class="Pspacer"></P>
+
+		<P align="justify">
+		Dan Cobb & Associates adheres to the highest standards of business ethics and personal integrity with a strong emphasis on meeting your ongoing service requirements.
+Dan Cobb has a relaxed needs-based approach to doing business, offering a pleasant change from the high pressure sales tactics that are often used in marketing insurance protection.
+		</P>
+
+		<P class="Pspacer"></P>
+
+		<P align="justify">
+		Dan helps his clients meet their short and long term financial goals by providing the following products and services:
+		</P>
+
+		<TABLE BORDER=0 WIDTH=100%>
+		<TR><TD colspan=2><img src="images/blank.gif" height=20px;></TD></TR>
+		<TR>
+		<TD valign=top>
+			<DIV ID="LIFE" NAME="LIFE">
+			<strong><U CLASS="cg cg12"><span CLASS="cg cg12">LIFE INSURANCE</span></U></strong>
+			<UL>
+			<LI CLASS="cg cg12"> Business & Personal
+			<LI CLASS="cg cg12"> Individual & Group
+			<LI CLASS="cg cg12"> Business Continuation Assurance
+			<LI CLASS="cg cg12"> Debt and/or Mortgage Protection
+			<LI CLASS="cg cg12"> Key Person
+			<LI CLASS="cg cg12"> Business Buy/Sell
+			<LI CLASS="cg cg12"> Low Cost Term Insurance
+			<LI CLASS="cg cg12"> Competitive Permanent Cash Value Plans
+			<LI CLASS="cg cg12"> Payroll Deduction Plans
+			<LI CLASS="cg cg12"> Estate Preservation & Tax Protection
+			</UL>
+			</DIV>
+		</TD>
+		<TD valign=top>
+			<DIV ID="DISABILITY" NAME="DISABILITY">
+			<strong><U><span CLASS="cg cg12">DISABILITY INSURANCE</span></U></strong>
+			<UL>
+			<LI CLASS="cg cg12"> Individual & Group
+			<LI CLASS="cg cg12"> Salary Continuation/Sick Pay Plans  
+			<LI CLASS="cg cg12"> Group Disability Plan Supplementation
+			<LI CLASS="cg cg12"> Business Overhead Expense
+			<LI CLASS="cg cg12"> Key Person
+			<LI CLASS="cg cg12"> Disability Buy/Sell
+			<LI CLASS="cg cg12"> Debt Protection
+			<LI CLASS="cg cg12"> Payroll Deduction Plans
+			<LI CLASS="cg cg12"> Retirement Plan Contribution Protection
+			<LI CLASS="cg cg12"> High Benefit Limit Plans
+			</UL>
+			</DIV>
+		</TD>
+		</TR>
+		<TR><TD colspan=2><img src="images/blank.gif" height="15px"></TD></TR>
+		<TR>
+		<TD valign=top>
+			<DIV ID="LONGTERM" NAME="LONGTERM">
+			<strong><U CLASS="cg cg12"><span CLASS="cg cg12">LONG TERM CARE INSURANCE</span></U></strong>
+			<UL>
+			<LI CLASS="cg cg12"> Group & Individual
+			<LI CLASS="cg cg12"> Payroll Deduction
+			</UL>
+			</DIV>
+		</TD>
+		<TD valign=top>
+			<DIV ID="SERVICES" NAME="SERVICES">
+			<strong><U CLASS="cg cg12"><span CLASS="cg cg12">Services Available Free of Charge</span></U></strong>
+			<UL>
+			<LI CLASS="cg cg12"> Insurance Needs Analysis
+			<LI CLASS="cg cg12"> Insurance Plan Benefit & Cost Comparisons
+			<LI CLASS="cg cg12"> Competitive Price Shopping
+			<LI CLASS="cg cg12"> Technical Information<BR>(Printouts on topics of Your choice)
+			</UL>
+			</DIV>
+		</TD>
+		</TR>
+
+		</TABLE>
+
+	</DIV>
+	<DIV class="toggle" ID="GROUP" NAME="GROUP" style="display:none;">
+
+		<p align=center>
+		<b><u>Presbyterian Healthcare Services</u></b>
+		</p>
+
+		<P class="Pspacer"></P>
+
+		<p align=center>
+		<b>Supplemental Individual Disability Insurance Benefit</b>
+		</p>
+
+		<P class="Pspacer"></P>
+
+		<P class="Pspacer"></P>
+
+		<p align=justify>
+<b>PHS</b> automatically provides <b>group long-term disability</b> (LTD) insurance at no cost to the executives.
+The plan pays an income replacement benefit of 60% of base salary up to a maximum benefit of $15,000 per month.
+The benefit is payable in the event you become disabled and the disability continues beyond the 90 day elimination/waiting period.
+The benefit is taxable since <b>PHS</b> pays the premium.
+You must be benefit eligible to qualify for the coverage.
+		</p>
+
+		<P class="Pspacer"></P>
+
+		<p align=justify>
+This is an excellent benefit, but as is typical, group plans often do not provide complete income protection.
+Due to the normal benefit limits and taxation of group disability insurance plans, a substantial portion of your income, which includes bonuses, retirement plan contributions, and other earned income, is not protected.
+Depending on your total income, supplemental individual disability insurance plans can offer additional income protection which, when combined with your group plan, can increase your overall protection up to 65% of your pre-disability income on a tax free basis.
+In addition, individual plans offer a variety of options that will allow you to choose a plan design in accordance with your particular needs.
+Your plan can be as comprehensive or as basic as you like and the cost is very affordable when the available permanent and portable discounts are considered.
+		</p>
+
+		<P class="Pspacer"></P>
+
+		<p align=justify>
+Presbyterian has made several popular individual disability insurance plans available to you at a <span style="background:yellow;">substantial premium discount</span> through <B>Dan Cobb and Associates</B>.
+One of these plans offers a considerably <span style="background:yellow;">lower cost unisex rate for female professionals</span>.
+You must work at least 30 hours per week from all employment combined in order to qualify for these plans.
+		</p>
+
+		<P class="Pspacer"></P>
+
+		<p align=justify>
+If you would like more information and a rate quote or a comparison to an existing individual plan, please email <b>Dan</b> at <a href="mailto:dan@dancobbinc.com">dan@dancobbinc.com</a>.
+You can also reach him by calling his office at (505) 294-5700 or (800) 880-4404, or his mobile at (505) 262-6130.
+There will be no obligation or sales pressure and you don't have to meet with Dan to obtain information.
+		</p>
+
+		<P class="Pspacer"></P>
+
+		<p align=justify>
+Since medical and financial underwriting is required, the sponsored disability plans may not always meet your needs.
+In every case, Dan Cobb and Associates will shop the market in order to assure that you receive the very best plan at the lowest cost possible based on your personal and financial situation.
+		</p>
+
+	</DIV>
+	<DIV class="toggle" ID="PROBLEM" NAME="PROBLEM" style="display:none;">
+		<p align=center><b><u><span>Presbyterian Healthcare Services - Executives</span></u></b></p>
+
+		<P class="Pspacer"></P>
+
+		<p align=center><b><span>The Problem</span></b></p>
+
+		<P class="Pspacer"></P>
+
+		<div align=center>
+		<table class=datatable border=0 cellspacing=0 cellpadding=5px>
+		 <tr>
+		  <td width=319 valign=top>
+		  <p align=center><span>Base Salary</span></p>
+		  </td>
+		  <td width=319 valign=top>
+		  <p align=center><span>$200,000 annually</span></p>
+		  </td>
+		 </tr>
+		 <tr>
+		  <td width=319 valign=top>
+		  <p align=center><span>Pre-Disability Take Home Pay-</span></p>
+		  <p align=center><span>28% Tax Bracket</span></p>
+		  </td>
+		  <td width=319 valign=top>
+		  <p align=center><span>$144,000</span></p>
+		  </td>
+		 </tr>
+		 <tr>
+		  <td width=319 valign=top>
+		  <p align=center><span>Group
+		  Long-Term Disability Benefit During a Claim</span></p>
+		  <p align=center><span style="font-size: 10pt;">(60% of salary up to a maximum benefit of $15,000 per month)</span></p>
+		  </td>
+		  <td width=319 valign=top>
+		  <p align=center><span>$120,000 annually</span></p>
+		  <p align=center><span style="font-size: 10pt;">(An employer-paid plan is subject to taxation)</span></p>
+		  </td>
+		 </tr>
+		 <tr>
+		  <td width=319 valign=top>
+		  <p align=center><span>Take Home Pay While On Claim-28% Tax Bracket</span></p>
+		  </td>
+		  <td width=319 valign=top>
+		  <p align=center><span>$86,400</span></p>
+		  </td>
+		 </tr>
+		 <tr>
+		  <td width=319 valign=top>
+		  <p align=center><span>Percent
+		  of Prior Take Home Pay with Group Disability Benefit Only</span></p>
+		  <p align=center><span style="font-size: 10pt;">(based on salary example used)</span></p>
+		  </td>
+		  <td width=319 valign=top>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><span>Approximately 60%</span></p>
+		  </td>
+		 </tr>
+		</table>
+		</div>
+
+		<p align=center><span>&nbsp;</span></p>
+
+		<p align=center><b><span>The Solution</span></b></p>
+
+		<div align=center>
+		<table class=datatable border=0 cellspacing=0 cellpadding=5px>
+		 <tr>
+		  <td width=319 valign=top>
+		  <p align=center><span>Supplement with Tax-Free Individual Disability Insurance</span></p>
+		  </td>
+		  <td width=319 valign=top>
+		  <p align=center><span>$42,000 per year</span></p>
+		  </td>
+		 </tr>
+		 <tr>
+		  <td width=319 valign=top>
+		  <p align=center><span>Add the After Tax Group Disability Insurance Benefit</span></p>
+		  </td>
+		  <td width=319 valign=top>
+		  <p align=center><span>$86,400 per year</span></p>
+		  </td>
+		 </tr>
+		 <tr>
+		  <td width=319 valign=top>
+		  <p align=center><span>Total Combined Protection</span></p>
+		  </td>
+		  <td width=319 valign=top>
+		  <p align=center><span>$128,400</span></p>
+		  </td>
+		 </tr>
+		 <tr>
+		  <td width=319 valign=top>
+		  <p align=center><span>Percent of Prior Take Home Pay with Group Disability Protection 
+		  <u>and</u> the Supplemental Individual Disability Plan</span></p>
+		  </td>
+		  <td width=319 valign=top>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><span>Approximately 89.2%</span></p>
+		  </td>
+		 </tr>
+		</table>
+		</div>
+
+		<div>
+
+		<P class="Pspacer"></P>
+
+		<p align=center><b><span>&nbsp;</span></b></p>
+
+		<P class="Pspacer"></P>
+
+		<p align=center><b><span>&nbsp;</span></b></p>
+
+		<P class="Pspacer"></P>
+
+		<p><b>Please note:</b> the higher the salary, the larger the group disability insurance
+		benefit shortfall is. Each case is unique and needs to be analyzed based on the
+		pertinent facts.
+		</p>
+		</div>
+	</DIV>
+	<DIV class="toggle" ID="COMPARE" NAME="COMPARE" style="display:none;">
+		<p align=center><b><u><span>Presbyterian Health Care Services - Executives</span></u></b></p>
+
+		<P class="Pspacer"></P>
+
+		<p align=center><b><span>Supplemental Disability Insurance Benefit Comparison</span></b></p>
+
+		<P class="Pspacer"></P>
+		<P class="Pspacer"></P>
+
+		<div align=center style="overflow:auto;height:850px;border: 1px solid #00549b;">
+
+			<P class="Pspacer"></P>
+
+			<table class="datatable" border=0 cellspacing=0 cellpadding=5px width=702>
+
+			<tr>
+			 <td width=190 valign=top>
+				  <p align=center><b><u><span>Policy Provisions</span></u></b></p>
+			 </td>
+			 <td width=257 valign=top>
+				  <p align=center><b><u><span>Standard Insurance - Platinum Plan</span></u></b></p>
+			 </td>
+			 <td width=255 valign=top>
+				  <p align=center><b><u><span>Principal Financial</span></u></b></p>
+			 </td>
+			</tr>
+
+			 <tr>
+			  <td width=190 valign=top>
+			  <p><span>&nbsp;</span></p>
+			  <p><span>Individual non-cancellable and guaranteed renewable plan.
+			  Premiums guaranteed for the entire benefit period.</span></p>
+			  <p><span>&nbsp;</span></p>
+			  </td>
+			  <td width=257 valign=top>
+			  <p><span>&nbsp;</span></p>
+			  <p><span>Yes, however, a lower cost version is available that does not
+			  guarantee the premiums.</span></p>
+			  </td>
+			  <td width=255 valign=top>
+			  <p><span>&nbsp;</span></p>
+			  <p><span>Yes.</span></p>
+			  </td>
+			 </tr>
+
+			 <tr>
+			  <td width=190 valign=top>
+			  <p><span>&nbsp;</span></p>
+			  <p><span>Occupational Protection Provided?</span></p>
+			  </td>
+			  <td width=257 valign=top>
+			  <p><b><span>&nbsp;</span></b></p>
+			  <p><span>Yes - included.</span></p>
+			  <p><b><span>&nbsp;</span></b></p>
+			  <p><b><span>Own Occupation</span></b><span> - Pays full benefits if you
+			  cannot perform the substantial and material duties of your occupation,
+			  even if you work elsewhere. 
+			  </span></p>
+			  <p><span>&nbsp;</span></p>
+			  </td>
+			  <td width=255 valign=top>
+			  <p><span>&nbsp;</span></p>
+			  <p><span>Yes - available as an option.</span></p>
+			  <p><b><span>&nbsp;</span></b></p>
+			  <p><b><span>Own Occupation</span></b><span> - Pays full benefits if you
+			  cannot work in your occupation, even if you work elsewhere. Other occupation
+			  definitions are available. 
+			  </span></p>
+			  <p><span>&nbsp;</span></p>
+			  </td>
+			 </tr>
+			 <tr>
+			  <td width=190 valign=top>
+			  <p><span>&nbsp;</span></p>
+			  <p><span>Are Benefits Payable for Residual/Partial Disability?</span></p>
+			  </td>
+			  <td width=257 valign=top>
+			  <p align=center><span>&nbsp;</span></p>
+			  <p><span>Yes - included.</span></p>
+			  <p><b><span>&nbsp;</span></b></p>
+			  <p><span>
+			  Following the benefit waiting period, full benefits are payable for the first 6 months if you are able to work in your occupation or another occupation, you are not totally disabled and due to your injury or sickness you suffer a 20% or more loss of duties, or time, or income. After the 6 month initial period, if you are working in your own occupation or any other occupation and you are not totally disabled, and if through injury or sickness you continue to have a 20% or more loss of income, benefits are payable directly proportional to your percent of loss.  The minimum is 20%. If the loss is greater than 80% of your prior earnings, full benefits will be payable.
+			  </span></p>
+			  <p><span>&nbsp;</span></p>
+			  </td>
+			  <td width=255 valign=top>
+			  <p align=center><b><span>&nbsp;</span></b></p>
+			  <p><b><span>Available - Extra Cost Option</span></b><span>
+			  </p>
+			  <p><span>
+			  Benefits are payable if you are not totally disabled but solely due to injury or sickness you have a loss of earnings of at least 20% of your prior earnings and you are able to perform some, but not all, of the substantial and the material duties or you are unable to work full time in your occupation or you are working in another occupation. The minimum payment for the first 6 months is 50% of your benefit.  Full benefits are payable if your loss is 75% or more.
+			  </span></p>
+			  </td>
+			 </tr>
+			 <tr>
+			  <td width=190 valign=top>
+			  <p align=center><span>&nbsp;</span></p>
+			  <p><span>How long can a disability be interrupted without losing time
+			  already accumulated?</span></p>
+			  </td>
+			  <td width=257 valign=top>
+			  <p><span>&nbsp;</span></p>
+			  <p><span>
+			  The elimination/waiting period can be interrupted but must be satisfied within a period of no longer than two times the number of days of the waiting period. After the waiting period has been satisfied the disability can be interrupted by a return to work of up to 12 months before you have to satisfy a new elimination/waiting period.  The disability must be from the same or a related cause.
+			  </span></p>
+			  <p><span>&nbsp;</span></p>
+			  </td>
+			  <td width=255 valign=top>
+			  <p><span>&nbsp;</span></p>
+			  <p><span>
+			  The elimination/waiting period can be interrupted but must be satisfied within a period of no longer than two times the number of days of the waiting period, and less than one year.  After the waiting period has been satisfied the disability can be interrupted by a return to work of up to 6 months before you have to satisfy a new elimination/ waiting period. The disability can be from the same or a <u>different</u> cause.  
+			  </span></p>
+			  </td>
+			 </tr>
+			 <tr>
+			  <td width=190 valign=top>
+			  <p align=center><span>&nbsp;</span></p>
+			  <p><span>Are the benefits payable after returning to work full time,
+			  even if not disabled, allowing time to rebuild your income?</span></p>
+			  </td>
+			  <td width=257 valign=top>
+			  <p align=center><span>&nbsp;</span></p>
+			  <p><span>
+			  Benefits are potentially payable for up to the entire benefit
+			  period if you continue to suffer a 20% or more loss of income as a result of
+			  the prior disability.
+			  </span></p>
+			  <p><span><br>
+			  <br>
+			  </span></p>
+			  </td>
+			  <td width=255 valign=top>
+			  <p align=center><span>&nbsp;</span></p>
+			  <p><span>
+			  Benefits are potentially payable for up to the entire benefit
+			  period if you continue to suffer a 20% or more loss of income as a result of
+			  the prior disability.
+			  </span></p>
+			  <p><span>&nbsp;</span></p>
+			  </td>
+			  </tr>
+			  <tr>
+			  <td width=190 valign=top>
+			  <p align=center><b><span>&nbsp;</span></b></p>
+			  <p><span>Are premiums waived while on claim?</span></p>
+			  <p align=center><b><span>&nbsp;</span></b></p>
+			  </td>
+			  <td width=257 valign=top>
+			  <p><b><span>&nbsp;</span></b></p>
+			  <p><span>
+			  Will waive all premiums due while disability and recovery benefits are payable. In addition, any premiums paid after the date your disability began will be refunded. 
+			  </span></p>
+			  <p align=center><b><span>&nbsp;</span></b></p>
+			  </td>
+			  <td width=255 valign=top>
+			  <p><span>
+			  Once you have been disabled for the lessor of 90 days or the elimination/waiting period, premiums are waived.  In addition, any premiums paid after the disability began will be refunded.
+			  </span></p>
+			  </td>
+			 </tr>
+			 <tr>
+			  <td width=190 valign=top>
+			  <p align=center><span>&nbsp;</span></p>
+			  <p><span>
+			  Mental/Nervous or Substance Abuse Disorders - Limitations? 
+			  </span></p>
+			  </td>
+			  <td width=257 valign=top>
+			  <p align=center><span>&nbsp;</span></p>
+			  <p><span>
+			  None - Benefits are potentially payable for the entire benefit period.
+			  </span></p>
+			  <p><span>&nbsp;</span></p>
+			  </td>
+			  <td width=255 valign=top>
+			  <p align=center><span>&nbsp;</span></p>
+			  <p><span>
+			  Benefits are potentially payable for the entire benefit period for inpatient treatment; however, a 24 month lifetime benefit period limit will apply if treatment is outpatient.
+			  </span></p>
+			  </td>
+			 </tr>
+			 <tr>
+			  <td width=190 valign=top>
+			  <p align=center><span>&nbsp;</span></p>
+			  <p><span>Are Cost of Living Adjustments (COLA) Payable During
+			  Disability?</span></p>
+			  </td>
+			  <td width=257 valign=top>
+			  <p align=center><span>&nbsp;</span></p>
+			  <p><b><span>Extra Cost Option</span></b><span> - CPI adjustments up
+			  to a maximum of 3% or 6% compounded, your choice. After the disability
+			  terminates you have the right to purchase the increase in benefits at
+			  attained age rates, subject to normal benefit issue limits.</span></p>
+			  </td>
+			  <td width=255 valign=top>
+			  <p align=center><span>&nbsp;</span></p>
+			  <p><b><span>Extra Cost Option </span></b><span> - CPI adjustments up
+			  to 3% or 6% compounded, your choice. If the disability terminates you have
+			  the right to purchase the increase in benefits at attained age rates.</span></p>
+			  </td>
+			 </tr>
+			 <tr>
+			  <td width=190 valign=top>
+			  <p><span>&nbsp;</span></p>
+			  <p><span>
+			  Are there guaranteed options to increase benefits regardless of medical history?
+			  </span></p>
+			  <p><span>&nbsp;</span></p>
+			  </td>
+			  <td width=257 valign=top>
+			  <p align=center><span>&nbsp;</span></p>
+			  <p><b><span>Extra Cost Option</span></b><span>
+			  </span></p>
+			  (available depending upon age) - annual options to increase your benefit up to age 55 regardless of health conditions.  Financial underwriting is required. Premiums are charged at attained age rates. 
+			  <p><span>&nbsp;</span></p>
+			  </td>
+			  <td width=255 valign=top>
+			  <p align=center><span>&nbsp;</span></p>
+			  <p><b><span>No Cost Option - </span></b><span>
+			  a <B>benefit update</B> will allow you to potentially increase your benefit every three years without medical underwriting. Financial underwriting is required and any increases accepted will be charged at attained age rates.
+			  </span></p>
+			  </td>
+			 </tr>
+			 <tr>
+			  <td width=190 valign=top>
+			  <p align=center><span>&nbsp;</span></p>
+			  <p><span>
+			  Are Automatic Increases in Benefit Available with No Underwriting Required?
+			  </span></p>
+			  <p><span>&nbsp;</span></p>
+			  </td>
+			  <td width=257 valign=top>
+			  <p align=center><span>&nbsp;</span></p>
+			  <p><span>
+			  An automatic increase benefit is included that will increase your monthly benefit by 4% compounded each year for 5 consecutive years.  Financial or medical underwriting is not required and you can refuse an option, if you do not want it. The benefit will terminate if you refuse two consecutive increases.  Any increases accepted will be charged at attained age rates.  This option is available up to age 55 and can be renewed in 5 year increments with full medical and financial underwriting. 
+			  </span></p>
+			  </td>
+			  <td width=255 valign=top>
+			  <p align=center><span>&nbsp;</span></p>
+			  <p><span>
+			  A no cost future benefit increase option is available that will automatically increase your monthly benefit by the CPI, minimum 4% compounded to a maximum of 10% compounded, each year for six years.  An option can be refused.  No financial or medical underwriting is required and any increases accepted will be charged at attained age rates.  This option can be renewed to age 55 with financial underwriting if you are not on claim. 
+			  </span></p>
+			  <p><span>&nbsp;</span></p>
+			  </td>
+			 </tr>
+			 <tr>
+			  <td width=190 valign=top>
+			  <p align=center><span>&nbsp;</span></p>
+			  <p><span>
+			  What Are the Elimination/Waiting Period Options?
+			  </span></p>
+			  </td>
+			  <td width=257 valign=top>
+			  <p align=center><span>&nbsp;</span></p>
+			  <p><span>60, 90, 180 and 365 days</span></p>
+			  </td>
+			  <td width=255 valign=top>
+			  <p align=center><span>&nbsp;</span></p>
+			  <p><span>30, 60, 90, 180 and 365 days</span></p>
+			  </td>
+			 </tr>
+			 <tr>
+			  <td width=190 valign=top>
+			  <p align=center><span>&nbsp;</span></p>
+			  <p><span>
+			  What are the Benefit Period Options?
+			  </span></p>
+			  </td>
+			  <td width=257 valign=top>
+			  <p align=center><span>&nbsp;</span></p>
+			  <p><span>2 years, 5 years, 10 years and to age 65 and age 67</span></p>
+			  </td>
+			  <td width=255 valign=top>
+			  <p align=center><span>&nbsp;</span></p>
+			  <p><span>
+			  2 years, 5 years, to ages 65, 67 or 70
+			  </span></p>
+			  <p><span>&nbsp;</span></p>
+			  </td>
+			 </tr>
+			 <tr>
+			  <td width=190 valign=top>
+			  <p><span>&nbsp;</span></p>
+			  <p><span>Other Extra Cost Options</span></p>
+			  </td>
+			  <td width=257 valign=top>
+			  <p align=center><span>&nbsp;</span></p>
+			  <p><span>
+			  <b>Catastrophic Benefit</b> - Pays an additional
+			  benefit if you suffer the loss of two or more activities of daily living or
+			  if you are cognitively impaired.</span></p>
+			  <p><span>&nbsp;</span></p>
+			  </td>
+			  <td width=255 valign=top>
+			  <p align=center><span>&nbsp;</span></p>
+			  <p><span>
+			  <b>Catastrophic Benefit</b> - Pays an additional
+			  benefit if you suffer the loss of two or more activities of daily living or
+			  if you are cognitively impaired.
+			  </span></p>
+			  <p><span>&nbsp;</span></p>
+			  <p><b><span>Retirement Contribution Protection</span></b></p>
+			  <p><span>&nbsp;</span></p>
+			  <p><b><span>Extended Total Disability Benefits</span></b></p>
+			  <p><b><span>&nbsp;</span></b></p>
+			  <p><b><span>Supplemental Health Benefit Rider</span></b></p>
+			  <p><b><span>&nbsp;</span></b></p>
+			  </td>
+			 </tr>
+
+			</table>
+
+			<P class="Pspacer"></P>
+
+		</div>
+
+		<div>
+
+			<P class="Pspacer"></P>
+
+			<p>*DISCLAIMER: This comparison is my interpretation of the benefits and is
+			not intended to suggest how any insurance company would react under any given
+			circumstance. This is an abbreviated outline of benefits.
+			</p>
+
+			<P class="Pspacer"></P>
+
+			<p>
+			For more information contact Dan Cobb at (505) 294-5700 with questions, requests or to ask for a copy of a sample policy.
+			</p>
+
+		</div>
+	</DIV>
+	<DIV class="toggle" ID="RATES" NAME="RATES" style="display:none;">
+		<p align=center><b><u><span>Presbyterian Healthcare Services</span></u></b></p>
+
+		<P class="Pspacer"></P>
+
+		<p align=center><span><b><u>Executives</u></b> Supplemental</span></p>
+
+		<p align=center><span>Individual Disability Insurance</span></p>
+
+		<p align=center><span>Multi-Life Option - Premium Comparison</span></p>
+
+		<P class="Pspacer"></P>
+
+		<div align=center>
+		<table class=datatable border=0 cellspacing=0 cellpadding=5px width=884>
+		 <tr>
+		  <td width=235 valign=top>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><span>Occupations</span></p>
+		  <p align=center><span>&nbsp;</span></p>
+		  </td>
+		  <td width=349 colspan=4 valign=top>
+		  <p align=center><b><span>&nbsp;</span></b></p>
+		  <p align=center><b><span>Standard Insurance Platinum Plan with</span></b></p>
+		  <p align=center><b><span>Own Occupation Coverage</span></b></p>
+		  </td>
+		  <td width=299 colspan=4 valign=top>
+		  <p align=center><b><span>&nbsp;</span></b></p>
+		  <p align=center><b><span>Principal Financial with</span></b></p>
+		  <p align=center><b><span>Own Occupation Coverage</span></b></p>
+		  </td>
+		 </tr>
+		 <tr style="background:#dddddd;">
+		  <td width=235 rowspan=2 valign=top>
+		  <p align=center><u><span>AGE</span></u></p>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><span>Based on a 5A rate class, which assumes income has been at least
+		  $60,000 for the last two years and you have spent at least three years in the
+		  same occupation.</span></p>
+		  </td>
+		  <td width=87 valign=top>
+		  <p align=center><span>35</span></p>
+		  </td>
+		  <td width=87 valign=top>
+		  <p align=center><span>40</span></p>
+		  </td>
+		  <td width=87 valign=top>
+		  <p align=center><span>45</span></p>
+		  </td>
+		  <td width=87 valign=top>
+		  <p align=center><span>50</span></p>
+		  </td>
+		  <td width=75 valign=top>
+		  <p align=center><span>35</span></p>
+		  </td>
+		  <td width=75 valign=top>
+		  <p align=center><span>40</span></p>
+		  </td>
+		  <td width=75 valign=top>
+		  <p align=center><span>45</span></p>
+		  </td>
+		  <td width=75 valign=top>
+		  <p align=center><span>50</span></p>
+		  </td>
+		 </tr>
+		 <tr>
+		  <td width=87 valign=top>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><u><span>Males</span></u></p>
+		  <p align=center><span>&nbsp;</span></u></p>
+		  <p align=center><span>$1,145</span></p>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><u><span>Females</span></u></p>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><span>$1,774</span></p>
+		  </td>
+		  <td width=87 valign=top>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><u><span>Males</span></u></p>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><span>$1,384</span></p>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><u><span>Females</span></u></p>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><span>$1,899</span></p>
+		  </td>
+		  <td width=87 valign=top>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><u><span>Males</span></u></p>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><span>$1,674</span></p>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><u><span>Females</span></u></p>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><span>$2,251</span></p>
+		  </td>
+		  <td width=87 valign=top>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><u><span>Males</span></u></p>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><span>$1,919</span></p>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><u><span>Females</span></u></p>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><span>$2,505</span></p>
+		  </td>
+		  <td width=75 valign=top>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><span>$1,301</span></p>
+		  </td>
+		  <td width=75 valign=top>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><span>$1,686</span></p>
+		  </td>
+		  <td width=75 valign=top>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><span>$2,043</span></p>
+		  </td>
+		  <td width=75 valign=top>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><span>$2,423</span></p>
+		  </td>
+		 </tr>
+		 <tr>
+		  <td width=235 valign=top>
+		  <p align=center><span>&nbsp;</span></p>
+		  </td>
+		  <td width=349 colspan=4 valign=top>
+		  <p align=center><b><span>&nbsp;</span></b></p>
+		  <p align=center><b><span>Standard
+		  Insurance Essential Plan* </span></b></p>
+		  </td>
+		  <td width=299 colspan=4 rowspan=3 valign=top>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><span>&nbsp;</span></p>
+		  </td>
+		 </tr>
+		 <tr style="background:#dddddd;">
+		  <td width=235 rowspan=2 valign=top>
+		  <p align=center><u><span>AGE</span></u></p>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><span>Based on a 5A rate class, which assumes income has been at least
+		  $60,000 for the last two years and you have spent at least three years in the
+		  same occupation.</span></p>
+		  <p align=center><span>&nbsp;</span></p>
+		  </td>
+		  <td width=87 valign=top>
+		  <p align=center><span>35</span></p>
+		  </td>
+		  <td width=87 valign=top>
+		  <p align=center><span>40</span></p>
+		  </td>
+		  <td width=87 valign=top>
+		  <p align=center><span>45</span></p>
+		  </td>
+		  <td width=87 valign=top>
+		  <p align=center><span>50</span></p>
+		  </td>
+		 </tr>
+		 <tr>
+		  <td width=87 valign=top>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><u><span>Males</span></u></p>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><span>$693</span></p>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><u><span>Females</span></u></p>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><span>$1,109</span></p>
+		  </td>
+		  <td width=87 valign=top>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><u><span>Males</span></u></p>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><span>$833</span></p>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><u><span>Females</span></u></p>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><span>$1,193</span></p>
+		  </td>
+		  <td width=87 valign=top>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><u><span>Males</span></u></p>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><span>$939</span></p>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><u><span>Females</span></u></p>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><span>$1,374</span></p>
+		  </td>
+		  <td width=87 valign=top>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><u><span>Males</span></u></p>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><span>$1,054</span></p>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><u><span>Females</span></u></p>
+		  <p align=center><span>&nbsp;</span></p>
+		  <p align=center><span>$1,551</span></p>
+		  </td>
+		 </tr>
+		</table>
+		</div>
+
+		<div style="clear:both;"></div>
+
+		<div>
+
+		<P class="Pspacer"></P>
+
+		<p><span>Standard Insurance rates include a 10% multi-life discount. Principal
+		Financial rates include a 20% multi-life discount in addition to unisex rates.</span></p>
+
+		<P class="Pspacer"></P>
+
+		<p><span>Policy Specifications - $3,500/month benefit, 90 day elimination/waiting
+		period, to age 67 benefit period, non-cancelable, guaranteed renewable with
+		guaranteed level premiums on the Standard Platinum and the Principal Financial
+		Plans, residual/loss of income benefits. 3% cost of living adjustment (COLA)</span></p>
+
+		<P class="Pspacer"></P>
+
+		<p><span>*Essential plan premiums are guaranteed to remain level for the first 3 years.</span></p>
+		</div>
+	</DIV>
+	<DIV class="toggle" ID="BROCHURES" NAME="BROCHURES" style="display:none;">
+		<p align=left style="font-size:14pt;"><b><u><span>Standard Insurance Company</span></u></b></p>
+
+		<P class="Pspacer"></P>
+
+		<p>
+		The Standard Insurance Company provides two plans to meet your needs.
+The Platinum Plan is the most comprehensive of the two, while the Essential Plan offers excellent benefits at a reduced cost.
+Details and a comparison of the plans can be found by following these links.
+		</p>
+
+		<P class="Pspacer"></P>
+		<P class="Pspacer"></P>
+
+		<UL>
+		<LI CLASS="cg"><a href="http://www.standard.com/di/forms/di/mkt/16608si_sny.pdf" target="_blank">The Platinum Plan - Policy Summary</a>&nbsp;(Best Plan)<br>
+		<LI CLASS="cg"><a href="http://www.standard.com/di/forms/di/mkt/si16631.pdf" target="_blank">The Essential Plan - Policy Summary</a>&nbsp;(Lower Cost Plan)<br>
+		<LI CLASS="cg"><a href="http://www.standard.com/di/forms/di/mkt/si16603.pdf" target="_blank">The Comparison of the Platinum and the Essential Plans</a><br>
+		</UL>
+
+		<P class="Pspacer"></P>
+		<P class="Pspacer"></P>
+
+		<p align=left style="font-size:14pt;"><b><u><span>Principal Life Insurance Company</span></u></b></p>
+
+		<P class="Pspacer"></P>
+
+		<p>
+		Principal Life Insurance Company offers a comprehensive plan to meet your needs.
+The plan can be augmented by adding riders.
+Details of their plan and a description of the riders can be found by following this link.
+		</p>
+
+		<P class="Pspacer"></P>
+		<P class="Pspacer"></P>
+
+		<UL>
+		<LI CLASS="cg"><a href="https://secure02.principal.com/publicvsupply/GetFile?fm=JJ1507&ty=VOP&EXT=.VOP" target="_blank">Principal Life Insurance Company Policy Highlights</a><br>
+		</UL>
+	</DIV>
+	<DIV class="toggle" ID="HOWMUCH" NAME="HOWMUCH" style="display:none;">
+		<p align=left style="font-size:14pt;"><b><u><span>Standard Insurance Company</span></u></b></p>
+
+		<P class="Pspacer"></P>
+
+		<p>
+		If you're wondering how to assess the amount of insurance you need, The Standard Insurance Company provides a worksheet to help you.
+		Download and complete the worksheet for your information.
+		If you feel you need more guidance, please fax or email the completed worksheet to me and I will be happy to help you evaluate your needs.
+		</p>
+
+		<P class="Pspacer"></P>
+		<P class="Pspacer"></P>
+		<P class="Pspacer"></P>
+
+		<UL>
+		<LI CLASS="cg"><a href="http://www.standard.com/di/forms/di/mkt/diy/16360diy_si_sny.pdf" target="_blank">The Disability Insurance Needs Page</a><br>
+		</UL>
+
+		<P class="Pspacer"></P>
+		<P class="Pspacer"></P>
+		<P class="Pspacer"></P>
+
+		<p>
+		Once complete, my contact information is as follows:
+		</p>
+
+		<P class="Pspacer" align="center"></P>
+		<P class="Pspacer" align="center"></P>
+		<P class="Pspacer" align="center"></P>
+
+		<p>
+		<blockquote>
+		<table>
+
+		<tr>
+		<td class="cg cg11">
+		<B>Fax</B>
+		</td>
+		<td class="cg cg11" style="padding-left:10px;">
+		505-294-1222
+		</td>
+		</tr>
+
+		<tr>
+		<td class="cg cg11">
+		<B>Email</B>
+		</td>
+		<td class="cg cg11" style="padding-left:10px;">
+		dan@dancobbinc.com
+		</td>
+		</tr>
+
+		<tr>
+		<td class="cg cg11" valign="top">
+		<B>Postal Delivery</B>
+		</td>
+		<td class="cg cg11" style="padding-left:10px;">
+		Dan Cobb & Associates, Inc.<BR>
+		Post Office Box 27087<BR>
+		Albuquerque, New Mexico 87125-7087
+		</td>
+		</tr>
+
+		</table>
+		</blockquote>
+		</p>
+	</DIV>
+	<DIV class="toggle" ID="QUOTE" NAME="QUOTE" style="display:none;">
+		<p align=left style="font-size:14pt;"><b><u><span>Request A Rate Quote</span></u></b></p>
+
+		<P class="Pspacer"></P>
+
+		<p>
+		While it may be more efficient to have a brief telephone conference or face-to-face meeting regarding your needs, I have been working with executives for a long time and I understand that you are probably very busy.
+If you would prefer, you can download the rate quote request form, complete it, send it to me and I will send you some basic information and a sample rate quote.
+If I have questions I will contact you.
+		</p>
+
+		<P class="Pspacer"></P>
+		<P class="Pspacer"></P>
+		<P class="Pspacer"></P>
+
+		<p>
+		<blockquote>
+		<a href="documents/RequestARateQuoteExecutive.pdf" target="_blank"><B>Download Rate Quote Request Form</B></a>
+		</blockquote>
+		</p>
+
+		<P class="Pspacer"></P>
+		<P class="Pspacer"></P>
+		<P class="Pspacer"></P>
+
+		<p>
+		Please complete the form as thoroughly as possible.
+		The financial information requested is necessary to determine the maximum monthly benefit you can qualify for.
+		If you prefer, you can request a preliminary rate quote using a monthly benefit amount only rather than disclosing income at this time.
+		</p>
+
+		<P class="Pspacer"></P>
+
+		<p>
+		I will assume you live in New Mexico unless advised otherwise.
+		</p>
+
+		<P class="Pspacer"></P>
+
+		<p>
+		The information at the end of the form is needed to provide a reasonably accurate rate quote on disability insurance.
+This is the same type of information that will be needed should you decide to submit an application.
+		</p>
+
+		<P class="Pspacer"></P>
+
+		<p>
+		Once complete, you can send the form using the following contact information.
+		</p>
+
+		<P class="Pspacer" align="center"></P>
+		<P class="Pspacer" align="center"></P>
+		<P class="Pspacer" align="center"></P>
+
+		<p>
+		<blockquote>
+		<table>
+
+		<tr>
+		<td>
+		<B>Fax</B>
+		</td>
+		<td style="padding-left:10px;">
+		505-294-1222
+		</td>
+		</tr>
+
+		<tr>
+		<td>
+		<B>Email</B>
+		</td>
+		<td style="padding-left:10px;">
+		dan@dancobbinc.com
+		</td>
+		</tr>
+
+		<tr>
+		<td valign="top">
+		<B>Postal Delivery</B>
+		</td>
+		<td style="padding-left:10px;">
+		Dan Cobb & Associates, Inc.<BR>
+		Post Office Box 27087<BR>
+		Albuquerque, New Mexico 87125-7087
+		</td>
+		</tr>
+
+		</table>
+		</blockquote>
+		</p>
+	</DIV>
+	<DIV class="toggle" ID="UNDERWRITE" NAME="UNDERWRITE" style="display:none;">
+		<p align=left style="font-size:14pt;"><b><u><span>About Underwriting</span></u></b></p>
+
+		<P class="Pspacer"></P>
+
+		<p>
+		Individual disability insurance is medically and financially underwritten and the insurance companies tend to be very thorough in this process.
+The more information I have up front, the better job I can do in helping you find the best plan and at the most competitive cost.
+Underwriting rules vary considerably and if there are health issues or unusual circumstances, it will be necessary to shop the market for the best deal.
+Any information that I obtain in a conversation with you is strictly confidential and is not shared or discussed with anyone except an insurance underwriter.
+Even then, I never use your name unless a formal application is submitted.
+		</p>
+
+		<P class="Pspacer"></P>
+
+		<p>
+		Disability insurance companies want your business, however, and will try to accommodate a variety of unfortunate circumstances.
+If necessary, they can modify a plan by charging a higher premium, declining to offer a particular option, or excluding certain medical issues in order to be able to offer a policy.
+		</p>
+
+		<P class="Pspacer"></P>
+
+		<p>
+		I know the sponsored companies are very good but I am insurance company and product neutral while working on your behalf.
+My goal is to make you happy with the outcome if an application is submitted.
+		</p>
+	</DIV>
+</TD>
+</TR>
+
+	</TABLE>
+</TD>
+</TR>
+
+<TR><TD colspan=2><img src="images/blank.gif" height=10px;></TD></TR>
+
+<TR>
+<TD colspan=2>
+	<table width="100%">
+	<TR>
+	<TD CLASS="cg cg12" align=center height=80px>
+	<DIV CLASS="cgb cgb12">
+	Dan Cobb & Associates, Inc.
+	<BR>
+	Post Office Box 27087, Albuquerque, New Mexico  87125-7087
+	<BR>
+	<strong>Phone</strong>: 505-294-5700&nbsp;&nbsp;<strong>Toll Free</strong>: 800-880-4404&nbsp;&nbsp;<strong>Fax</strong>: 505-294-1222&nbsp;<strong>Mobile</strong>: 505-262-6130
+	<BR>
+	<A class="cg" HREF="mailto:dan@dancobbinc.com">dan@dancobbinc.com</A>
+	</DIV>
+	</TD>
+	</TR>
+	<TR>
+	<TD CLASS="cg cg6" align=center style="padding-top: 5px;" height=20px>
+	created by Seavello Web Design - 2013
+	</TD>
+	</TR>
+	</table>
+</TD>
+</TR>
+
+</TABLE>
+</td>
+</tr>
+</table>
+</div>
