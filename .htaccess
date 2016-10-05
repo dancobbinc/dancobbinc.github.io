@@ -1,2 +1,3 @@
+Redirect 301 /index.html /PHSphysician.html
 DirectoryIndex PHSphysician.html
 ErrorDocument 404 /404.shtml
