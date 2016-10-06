@@ -1,2 +1,2 @@
-DirectoryIndex PHSphysician.html
-ErrorDocument 404 /404.html
+RewriteEngine On
+RewriteRule ^(.*/)?sitemap.xml sitemap.php [L]
